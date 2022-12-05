@@ -12,3 +12,4 @@ def sort(nums):
 nums = [6,4,8,1,9,13,10]
 sort(nums)
 print(nums)
+print(nums)
