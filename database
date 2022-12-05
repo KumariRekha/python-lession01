@@ -5,3 +5,4 @@ mycursor = mydb.cursor()
 mycursor.execute("show databases")
 for i in mycursor:
     print(i)
+    print(i)
