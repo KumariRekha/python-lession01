@@ -1,0 +1,7 @@
+import mysql.connector
+
+mydb = mysql.connector.connect(host="localhost", user="admin", passwd="admin")
+mycursor = mydb.cursor()
+mycursor.execute("show databases")
+for i in mycursor:
+    print(i)
